@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Thermal Runaway', 'critical', 'safe']
+
+roboflow:
+  workspace: hemanth-kumar-galam
+  project: tr-prediction
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hemanth-kumar-galam/tr-prediction/dataset/1
